@@ -1,3 +1,56 @@
 h2 {
   font-family:arial, "times new roman";
 }
+
+p {
+  font-size:14pt;
+}
+.banner{
+    box-shadow: 0px 3px 4px #BEBEBE;
+}
+.error-container{
+  background-color:white;
+    border-radius:3px;
+}
+.error-message{
+  height: 100px;
+  margin-top:20%;
+
+}
+
+.error-detail{
+  padding:10px;
+  margin-top:5%;
+}
+body{
+  background-color:lightblue;
+}
+
+.alert{
+
+}
+.error-container{
+  background-color:white;
+  box-shadow: 0px 3px 4px #BEBEBE;
+}
+
+@media only screen and (max-width:769px) {
+  .error-message{
+    margin-top:10%;
+  }
+  h3 {
+    font-size:120%;
+  }
+  p{
+    font-size:90%;
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-width:1280px){
+  .error-detail{
+    margin-top:12%;
+  }
+  .error-message{
+    margin-top:10%;
+  }
+}

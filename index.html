@@ -18,22 +18,28 @@ crossorigin="anonymous"></script>
 
 <body>
 <div class="container">
-  <div class="row" style="height:100px">
-    <div class="col-xs-6 alert alert-danger col-xs-offset-3"><h2> You have encountered an error.</h2></div>
+  <div class="row" style="min-height:20px"></div>
+  <div class="row" >
+    <div class="col-lg-10  col-lg-offset-1 alert alert-danger text-center banner" ><h2> Sorry! Something happened on our end!</h2></div>
   </div>
-<div class="row">
-<div class="col-lg-10 col-lg-offset-1">
+<div class="row" >
+<div class="col-lg-10 col-lg-offset-1 container error-container" >
+
+
   <div class="col-xs-6">
-  <img src="./Assets/broken.svg" width="100%" /></div>
+        <img src="./Assets/broken.svg" width="100%" style="padding:10px" /></div>
+
+  <div class="col-xs-6 " id="error-information">
+
+    <div  class="error-message" ><h3>The server encountered an error while saving your information. Please try again.</h3>
+    <p>If the error persists, please contact your system administrator.</p></div>
+    <h5 class="alert alert-danger error-detail text-center">Err in ExecuteSQL() - String or binary data would be truncated</h5></div>
+
+
 
 
 </div>
-
-
-
-
-
-
+</div>
 
 </div>
 
