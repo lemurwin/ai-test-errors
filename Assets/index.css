@@ -11,7 +11,9 @@ p {
 .error-container{
   background-color:white;
     border-radius:3px;
+    box-shadow: 0px 3px 4px #BEBEBE;
 }
+
 .error-message{
   height: 100px;
   margin-top:20%;
@@ -29,10 +31,7 @@ body{
 .alert{
 
 }
-.error-container{
-  background-color:white;
-  box-shadow: 0px 3px 4px #BEBEBE;
-}
+
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
