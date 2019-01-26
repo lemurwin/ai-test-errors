@@ -40,7 +40,7 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-button{
+#submit {
   background-color: #31708f;
  color: white;
  padding: 14px 20px;
@@ -48,6 +48,9 @@ button{
  border: none;
  cursor: pointer;
  width: 100%;
+}
+.collapsed{
+  margin-left:15px;
 }
 button:hover{
   opacity:0.8;
