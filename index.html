@@ -50,7 +50,7 @@ crossorigin="anonymous"></script>
 <div class="container">
 
   <div class="row" >
-    <div class="col-lg-10  col-lg-offset-1 alert alert-info text-center banner" ><h2>You are not logged in!</h2></div>
+    <div class="col-lg-10  col-lg-offset-1 alert alert-info text-center banner" ><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><h2>You are not logged in!</h2></div>
   </div>
 <div class="row" >
 <div class="col-lg-10 col-lg-offset-1 container error-container" >
@@ -64,9 +64,9 @@ crossorigin="anonymous"></script>
     <div><h3>Please login to view this page.</h3>
       <form>
         <label for="email"><b>Email</b></label><br>
-        <input type="text" placeholder="Email Address"></input><br>
+        <input type="email" placeholder="Email Address" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" ></input><br>
         <label for="password"><b>Password</b></label><br>
-        <input type="text" placeholder = "Password"></input><br>
+        <input type="password" placeholder = "Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"></input><br>
         <button id="submit" type="submit">Login</Button>
       </form>
     </div>
